@@ -1,0 +1,3 @@
+PyInquirer
+psycopg2-binary
+pytest

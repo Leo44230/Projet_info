@@ -1,4 +1,3 @@
-menus ={"principal" : Menu_principal}
 utilisateurs = {"leo" : "leo", "guillaume" : "guillaume", "romane" : "romane", "fath" : "fath", "david" : "david"}
 
 class Menu:
@@ -11,7 +10,7 @@ class Menu:
         self.fcts = fcts
 
     def display_menu(self):
-        print('#' * 50)
+        print('\n' * 100 + '#' * 50)
         print(' ' * ((50 - (len(self.nom))) / 2) + self.nom)  
         print('#' * 50 + '\n')
         print(self.message + '\n')
